@@ -1,0 +1,91 @@
+tool,input_pdf,output_path,runtime_s,return_code,stderr_tail
+surya,image-based-pdf-sample.pdf,out/image-based-pdf-sample.surya.json,0.016,127,"/bin/sh: surya-ocr: command not found
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,8.372,2,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: No such option: --output (Possible options: --output_dir, --output_format, --paginate_output)
+"
+surya,image-based-pdf-sample.pdf,out/image-based-pdf-sample.surya.json,4.578,2,"Usage: surya_ocr [OPTIONS] INPUT_PATH
+Try 'surya_ocr --help' for help.
+
+Error: No such option: --out
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,7.042,2,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: Got unexpected extra argument (image-based-pdf-sample.pdf)
+"
+surya,image-based-pdf-sample.pdf,out/image-based-pdf-sample.surya,4.862,2,0,0,"Usage: surya_ocr [OPTIONS] INPUT_PATH
+Try 'surya_ocr --help' for help.
+
+Error: No such option: --output Did you mean --output_dir?
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,7.271,2,0,0,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: Got unexpected extra argument (/var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmpvdctxnqh/in)
+"
+surya,image-based-pdf-sample.pdf,out/image-based-pdf-sample.surya,4.045,2,0,0,"Usage: surya_ocr [OPTIONS] INPUT_PATH
+Try 'surya_ocr --help' for help.
+
+Error: No such option: --output Did you mean --output_dir?
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,6.955,2,0,0,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: Got unexpected extra argument (/var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmpya4wyicd/in)
+"
+surya,image-based-pdf-sample.pdf,out/image-based-pdf-sample.surya,67.314,0,194738,1,"ognizing Text:  33%|███▎      | 4/12 [00:54<01:24, 10.54s/it]
+Recognizing Text:  42%|████▏     | 5/12 [00:55<00:48,  6.89s/it]
+Recognizing Text:  50%|█████     | 6/12 [00:56<00:29,  4.84s/it]
+Recognizing Text:  58%|█████▊    | 7/12 [00:56<00:16,  3.39s/it]
+Recognizing Text:  67%|██████▋   | 8/12 [00:57<00:10,  2.57s/it]
+Recognizing Text:  75%|███████▌  | 9/12 [00:57<00:05,  1.89s/it]
+Recognizing Text:  83%|████████▎ | 10/12 [00:58<00:02,  1.44s/it]
+Recognizing Text:  92%|█████████▏| 11/12 [00:58<00:01,  1.12s/it]
+Recognizing Text: 100%|██████████| 12/12 [00:58<00:00,  1.11it/s]
+Recognizing Text: 100%|██████████| 12/12 [00:58<00:00,  4.91s/it]
+2025-10-01 16:06:30,776 [INFO] surya: Wrote results to /var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmpkyzipcf_/surya_out/image-based-pdf-sample
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,7.538,2,0,0,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: Got unexpected extra argument (/var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmph_58wour/in)
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,6.695,2,0,0,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: Got unexpected extra argument (false)
+"
+marker,sample-local-pdf.pdf,out/sample-local-pdf.marker.md,3.657,2,0,0,"Usage: marker [OPTIONS] IN_FOLDER
+Try 'marker --help' for help.
+
+Error: Got unexpected extra argument (false)
+"
+marker,sample-local-pdf.pdf,out/sample-local-pdf.marker.md,24.081,0,9183,1,"2025-10-06 18:07:43,332 [INFO] marker: Converting 1 pdfs in chunk 1/1 with 1 processes and saving to /var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmpuv8em2jf/out
+
+Processing PDFs:   0%|          | 0/1 [00:00<?, ?pdf/s]2025-10-06 18:07:48,897 [WARNING] surya: `TableRecEncoderDecoderModel` is not compatible with mps backend. Defaulting to cpu instead
+
+Processing PDFs: 100%|██████████| 1/1 [00:20<00:00, 20.76s/pdf]
+Processing PDFs: 100%|██████████| 1/1 [00:20<00:00, 20.76s/pdf]
+"
+surya,image-based-pdf-sample.pdf,out/image-based-pdf-sample.surya,19.015,0,194738,1,"ognizing Text:  33%|███▎      | 4/12 [00:14<00:22,  2.76s/it]
+Recognizing Text:  42%|████▏     | 5/12 [00:14<00:12,  1.81s/it]
+Recognizing Text:  50%|█████     | 6/12 [00:14<00:07,  1.28s/it]
+Recognizing Text:  58%|█████▊    | 7/12 [00:14<00:04,  1.10it/s]
+Recognizing Text:  67%|██████▋   | 8/12 [00:14<00:02,  1.42it/s]
+Recognizing Text:  75%|███████▌  | 9/12 [00:15<00:01,  1.91it/s]
+Recognizing Text:  83%|████████▎ | 10/12 [00:15<00:00,  2.49it/s]
+Recognizing Text:  92%|█████████▏| 11/12 [00:15<00:00,  3.14it/s]
+Recognizing Text: 100%|██████████| 12/12 [00:15<00:00,  3.84it/s]
+Recognizing Text: 100%|██████████| 12/12 [00:15<00:00,  1.29s/it]
+2025-10-06 18:11:15,904 [INFO] surya: Wrote results to /var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmp118gsu_m/surya_out/image-based-pdf-sample
+"
+marker,image-based-pdf-sample.pdf,out/image-based-pdf-sample.marker.md,178.113,0,1073,1,"2025-10-06 18:11:19,037 [INFO] marker: Converting 1 pdfs in chunk 1/1 with 1 processes and saving to /var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmp7s6ct3ei/out
+
+Processing PDFs:   0%|          | 0/1 [00:00<?, ?pdf/s]2025-10-06 18:11:24,139 [WARNING] surya: `TableRecEncoderDecoderModel` is not compatible with mps backend. Defaulting to cpu instead
+
+Processing PDFs: 100%|██████████| 1/1 [02:54<00:00, 174.55s/pdf]
+Processing PDFs: 100%|██████████| 1/1 [02:54<00:00, 174.55s/pdf]
+"
