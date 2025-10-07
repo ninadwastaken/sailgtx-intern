@@ -89,3 +89,10 @@ Processing PDFs:   0%|          | 0/1 [00:00<?, ?pdf/s]2025-10-06 18:11:24,139 [
 Processing PDFs: 100%|██████████| 1/1 [02:54<00:00, 174.55s/pdf]
 Processing PDFs: 100%|██████████| 1/1 [02:54<00:00, 174.55s/pdf]
 "
+marker,examples/digital/sample-local-pdf.pdf,output/sample-local-pdf.marker.md,66.388,0,9183,1,"2025-10-07 18:12:01,301 [INFO] marker: Converting 1 pdfs in chunk 1/1 with 1 processes and saving to /var/folders/v8/8njvjf9s0psc7k8hyw30d45m0000gn/T/tmpsxd9u9tr/out
+
+Processing PDFs:   0%|          | 0/1 [00:00<?, ?pdf/s]2025-10-07 18:12:11,741 [WARNING] surya: `TableRecEncoderDecoderModel` is not compatible with mps backend. Defaulting to cpu instead
+
+Processing PDFs: 100%|██████████| 1/1 [00:57<00:00, 57.04s/pdf]
+Processing PDFs: 100%|██████████| 1/1 [00:57<00:00, 57.04s/pdf]
+"

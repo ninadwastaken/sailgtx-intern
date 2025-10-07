@@ -57,7 +57,7 @@ sailgtx-intern/
 │   │   └── image-based-pdf-sample.pdf
 │   └── large/
 │       └── 2025HTSRev24.pdf
-└── out/                 # created by runs; ignored by git
+└── outputs/                 # created by runs; ignored by git
 ```
 
 - `examples/digital/` holds PDFs with selectable text.
